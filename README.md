@@ -13,6 +13,7 @@ To fully populate these folders after a Windows Installation or Reset:
 2. Once you get to the main menu, click Exit Game.
 At this stage all folders are restored.
 
+---
 
 ![Backup](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/38294a6fcc93bcdd7753ff499a3eb7b79c785f2a/Images/BOTN_Backup_~_Restore_MUAkoyi3VA.png)
 
@@ -22,6 +23,7 @@ For Backing up, follow these steps:
 3. Click Save to... button and choose Drive and/or Folder. *[Bug](You will need to click Drive and/or Folder again inorder to re-select the path.)*
 4. Click Backup, a Success prompt should appear, a file {selector}_dd-mm-yyyy.zip file should be saved to the destination chosen in step 3.
 
+---
 
 ![Restore](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/38294a6fcc93bcdd7753ff499a3eb7b79c785f2a/Images/BOTN_Backup_~_Restore_53NKDlKfMf.png)
 
@@ -30,6 +32,8 @@ For Restoring, follow these steps:
 2. Wnsure that Restore is selected (Backup is selected by default).
 3. Drag and drop or click Add Archive button and select the file. files accepted are (.zip, .rar, .7z, .sav). *You can place many files in this selector.*
 4. Click Restore button, (.zip, .rar, .7z) will be extracted, (.sav) will be copied.
+
+---
 
 The idea of making a .zip backup of individual SaveGames and CharacterPresets is to help simplify the two different things. If I were to just target the Saved folder and you just wanted CharacterPresets, this method will overwrite all your existing SaveGames.
 If you want to target just a specific SaveGames, you can extract a SaveGames_dd-mm-yyyy.zip and rename the .sav to 4.sav if you have 0.sav, 1.sav, 2.sav, 3.sav, GameActions.sav. This is just renaming the file to the save slot #.
