@@ -7,7 +7,9 @@ The idea came from repeatedly seeing people in the Discord server ask, “Where 
   
 When you first open the application:  
 * Checks if `%LocalAppData%\OBF\Saved` exists; if false, the tool will create the folders.  
-* Checks if CharacterPresets & SavedGames exists; if false, the tool will create the folders.  
+* Checks if CharacterPresets & SavedGames exists; if false, the tool will create the folders.
+* Saves window position to `HKLU\\SOFTWARE\\BOTNBackup`  
+* [Removed] (Saves window Height and Width, this posed issues with window display and would cause more confusion.)  
   
 To fully populate these folders after a Windows Installation or Reset:  
 1. Run BOTN (You can use Steam or if you are a Supporter, use the build from Patreon or SubscribeStar.)  
