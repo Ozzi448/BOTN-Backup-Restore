@@ -12,6 +12,7 @@ When you first open the application:
 To fully populate these folders after a Windows Installation or Reset:  
 1. Run BOTN (You can use Steam or if you are a Supporter, use the build from Patreon or SubscribeStar.)  
 2. Once you get to the main menu, click Exit Game.  
+
 At this stage all folders and files are restored.  
   
 # Backup  
@@ -38,5 +39,5 @@ For Restoring, follow these steps:
 The purpose of creating separate `.zip` backups for individual SaveGames and CharacterPresets is to keep these two elements distinct and avoid unintended overwrites. For example, if the tool targeted the entire "Saved" folder when you only wanted to restore CharacterPresets, it could accidentally replace all your existing SaveGames.  
 To restore a specific SaveGame:  
 * Extract the desired `SaveGames_dd-mm-yyyy.zip` file.
-* Rename the extracted `.sav` file to match an available save slot (e.g., rename it to `4.sav` if you already have `0.sav`, `1.sav`, `2.sav`, `3.sav`, and `GameActions.sav`).    
+* Rename the extracted `.sav` file to match an available save slot (e.g., rename it to `4.sav` if you already have `0.sav`, `1.sav`, `2.sav`, `3.sav`, and `GameActions.sav`).
 For additional questions or information, please ask in the Discord server or consult the [Breeders of the Nephelym Wiki](https://breedersofthenephelym.miraheze.org/wiki/Breeders_of_the_Nephelym_Wiki)  
