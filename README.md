@@ -35,8 +35,8 @@ For Restoring, follow these steps:
   
 ---  
   
-The idea of making a .zip backup of individual SaveGames and CharacterPresets is to help simplify the two different things. If I were to just target the Saved folder and you just wanted CharacterPresets, this method will overwrite all your existing SaveGames.  
-  
-If you want to target just a specific SaveGames file, you can extract a SaveGames_dd-mm-yyyy.zip and rename the .sav to 4.sav if you have 0.sav, 1.sav, 2.sav, 3.sav, GameActions.sav. This is just renaming the file to the save slot #.  
-  
-For more questions and Info please ask in the discord server and use the [Breeders of the Nephelym Wiki](https://breedersofthenephelym.miraheze.org/wiki/Breeders_of_the_Nephelym_Wiki)  
+The purpose of creating separate `.zip` backups for individual SaveGames and CharacterPresets is to keep these two elements distinct and avoid unintended overwrites. For example, if the tool targeted the entire "Saved" folder when you only wanted to restore CharacterPresets, it could accidentally replace all your existing SaveGames.  
+To restore a specific SaveGame:  
+* Extract the desired `SaveGames_dd-mm-yyyy.zip` file.
+* Rename the extracted `.sav` file to match an available save slot (e.g., rename it to `4.sav` if you already have `0.sav`, `1.sav`, `2.sav`, `3.sav`, and `GameActions.sav`).
+For additional questions or information, please ask in the Discord server or consult the [Breeders of the Nephelym Wiki](https://breedersofthenephelym.miraheze.org/wiki/Breeders_of_the_Nephelym_Wiki)  
