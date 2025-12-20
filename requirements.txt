@@ -1,5 +1,4 @@
-zipfile
 rarfile
 py7zr
-customtinker
+customtkinter
 tkinterdnd2
