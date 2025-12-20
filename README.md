@@ -2,4 +2,32 @@
 
 I was inspired to create this tool to make backing up and restoring SaveGames and CharacterPresets easier. Instead of opening multiple folders and windows just to extract files from ZIP archives, this tool simplifies the entire process. The idea came from repeatedly seeing people in the Discord server ask, “Where is the SaveGames path?”—so I wanted to build something that reduces confusion and requires minimal user interaction.
 
-![https://Ozzi448/BOTN-Backup-Restore/blob/main/Images/BOTN_Backup_~_Restore_4jqLnx3057.png?raw=true](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/ec306171b919970ee77039c19616505fc9b52710/Images/BOTN_Backup_~_Restore_4jqLnx3057.png)
+![Main Application](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/ec306171b919970ee77039c19616505fc9b52710/Images/BOTN_Backup_~_Restore_4jqLnx3057.png)
+
+When you first open the application:
+* Checks if `%LocalAppData%\OBF\Saved` exists; if false, the tool will create the folders.
+* Checks if CharacterPresets & SavedGames exists; if false, the tool will create the folders.
+To fully populate these folders after a Windows Installation or Reset:
+1. Run BOTN (You can use Steam or if you are a Supporter, use the build from Patreon or SubscribeStar.)
+2. Once you get to the main menu, click Exit Game.
+At this stage all folders are restored.
+
+![Backup](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/38294a6fcc93bcdd7753ff499a3eb7b79c785f2a/Images/BOTN_Backup_~_Restore_MUAkoyi3VA.png)
+
+For Backing up, follow these steps:
+1. Click which Folder, CharacterPresets or SaveGames.
+2. Ensure that Backup is selected.
+3. Click Save to... button and choose Drive and/or Folder.
+4. Click Backup, a Success prompt should appear, a file {selector}_dd-mm-yyyy.zip file should be saved to the destination chosen in step 3.
+
+![Restore](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/38294a6fcc93bcdd7753ff499a3eb7b79c785f2a/Images/BOTN_Backup_~_Restore_53NKDlKfMf.png)
+
+For Restoring, follow these steps:
+1. Click which folder, CharacterPresets or SaveGames.
+2. Wnsure that Restore is selected (Backup is selected by default).
+3. Drag and drop or click Add Archive button and select the file. files accepted are (.zip, .rar, .7z, .sav). *You can place many files in this selector.*
+4. Click Restore button, (.zip, .rar, .7z) will be extracted, (.sav) will be copied.
+
+The idea of making a .zip backup of individual SaveGames and CharacterPresets is to help simplify the two different things. If I were to just target the Saved folder and you just wanted CharacterPresets, this method will overwrite all your existing SaveGames.
+If you want to target just a specific SaveGames, you can extract a SaveGames_dd-mm-yyyy.zip and rename the .sav to 4.sav if you have 0.sav, 1.sav, 2.sav, 3.sav, GameActions.sav. This is just renaming the file to the save slot #.
+For more questions and Info please ask in the discord server and use the [Breeders of the Nephelym Wiki](https://breedersofthenephelym.miraheze.org/wiki/Breeders_of_the_Nephelym_Wiki)
