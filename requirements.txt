@@ -1,4 +1,0 @@
-rarfile
-py7zr
-customtkinter
-tkinterdnd2
