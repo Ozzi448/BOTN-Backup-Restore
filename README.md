@@ -31,8 +31,9 @@ For Backing up, follow these steps:
 For Restoring, follow these steps:  
 1. Click which folder, CharacterPresets or SaveGames.  
 2. Ensure that Restore is selected (Backup is selected by default).  
-3. Drag and drop or click Add Archive button and select the file. files accepted are (.zip, .rar, .7z, .sav). *You can place many files in this selector.*  
-4. Click Restore button, (.zip, .rar, .7z) will be extracted, (.sav) will be copied.  
+3. Drag and drop or click Add Archive button and select the file.  
+   Accepted filetypes include (.zip, .rar, .7z, .sav). *You can place many files in this selector.*  
+5. Click Restore button, (.zip, .rar, .7z) will be extracted, (.sav) will be copied.  
   
 ---  
   
