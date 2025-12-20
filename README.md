@@ -23,8 +23,9 @@ At this stage all folders and files are restored.
 For Backing up, follow these steps:  
 1. Click which Folder, CharacterPresets or SaveGames.  
 2. Ensure that Backup is selected.  
-3. Click Save to... button and choose Drive and/or Folder. *[Bug](You will need to click Drive and/or Folder again inorder to re-select the path.)*  
-4. Click Backup, a Success prompt should appear, a file {selector}_dd-mm-yyyy.zip file should be saved to the destination chosen in step 3.  
+3. Click Save to... button and choose Drive and/or Folder.  
+   [Bug] (You will need to click Drive and/or Folder again inorder to re-select the path.)  
+5. Click Backup, a Success prompt should appear, a file {selector}_dd-mm-yyyy.zip file should be saved to the destination chosen in step 3.  
   
 # Restore  
 ![Restore](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/38294a6fcc93bcdd7753ff499a3eb7b79c785f2a/Images/BOTN_Backup_~_Restore_53NKDlKfMf.png)  
