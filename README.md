@@ -7,6 +7,7 @@ I was inspired to create this tool to make backing up and restoring SaveGames an
 When you first open the application:
 * Checks if `%LocalAppData%\OBF\Saved` exists; if false, the tool will create the folders.
 * Checks if CharacterPresets & SavedGames exists; if false, the tool will create the folders.
+
 To fully populate these folders after a Windows Installation or Reset:
 1. Run BOTN (You can use Steam or if you are a Supporter, use the build from Patreon or SubscribeStar.)
 2. Once you get to the main menu, click Exit Game.
