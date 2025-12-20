@@ -14,7 +14,7 @@ To fully populate these folders after a Windows Installation or Reset:
 At this stage all folders are restored.
 
 ---
-
+# Backup
 ![Backup](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/38294a6fcc93bcdd7753ff499a3eb7b79c785f2a/Images/BOTN_Backup_~_Restore_MUAkoyi3VA.png)
 
 For Backing up, follow these steps:
@@ -24,7 +24,7 @@ For Backing up, follow these steps:
 4. Click Backup, a Success prompt should appear, a file {selector}_dd-mm-yyyy.zip file should be saved to the destination chosen in step 3.
 
 ---
-
+# Restore
 ![Restore](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/38294a6fcc93bcdd7753ff499a3eb7b79c785f2a/Images/BOTN_Backup_~_Restore_53NKDlKfMf.png)
 
 For Restoring, follow these steps:
