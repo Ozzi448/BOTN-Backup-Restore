@@ -40,4 +40,5 @@ The purpose of creating separate `.zip` backups for individual SaveGames and Cha
 To restore a specific SaveGame:  
 * Extract the desired `SaveGames_dd-mm-yyyy.zip` file.
 * Rename the extracted `.sav` file to match an available save slot (e.g., rename it to `4.sav` if you already have `0.sav`, `1.sav`, `2.sav`, `3.sav`, and `GameActions.sav`).  
+
 For additional questions or information, please ask in the Discord server or consult the [Breeders of the Nephelym Wiki](https://breedersofthenephelym.miraheze.org/wiki/Breeders_of_the_Nephelym_Wiki)  
