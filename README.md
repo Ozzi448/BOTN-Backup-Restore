@@ -19,7 +19,7 @@ At this stage all folders are restored.
 For Backing up, follow these steps:
 1. Click which Folder, CharacterPresets or SaveGames.
 2. Ensure that Backup is selected.
-3. Click Save to... button and choose Drive and/or Folder.
+3. Click Save to... button and choose Drive and/or Folder. *[Bug](You will need to click Drive and/or Folder again inorder to re-select the path.)*
 4. Click Backup, a Success prompt should appear, a file {selector}_dd-mm-yyyy.zip file should be saved to the destination chosen in step 3.
 
 
