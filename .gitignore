@@ -1,7 +1,14 @@
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Python cache
 __pycache__/
 *.pyc
-dist/
-build/
+*.pyo
+*.pyd
+
 Images/
 .github/
-*.spec
+Assets/
