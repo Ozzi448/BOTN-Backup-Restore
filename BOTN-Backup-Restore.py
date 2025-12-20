@@ -29,7 +29,7 @@ class App(ctk.CTk, TkinterDnD.DnDWrapper):
 
         self.title("BOTN Backup ~ Restore")
         self.geometry("600x500")
-        self.iconbitmap(resource_path("assets/OBF_101.ico"))
+        self.iconbitmap(resource_path("OBF_101.ico"))
 
         self.theme_var = ctk.StringVar(value="System")
         self.excluded_ext = {".jpg", ".jpeg", ".gif", ".png", ".txt", ".md"}
@@ -297,3 +297,4 @@ class App(ctk.CTk, TkinterDnD.DnDWrapper):
 if __name__ == "__main__":
     app = App()
     app.mainloop()
+
