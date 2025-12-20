@@ -26,9 +26,9 @@ jobs:
 
       - name: Build .exe with PyInstaller
         # run: pyinstaller --onefile --name BOTN-Backup-Restore your_main_script.py  # Customize: entry point file, output name
-        run: pyinstaller --onefile --noconsole --clean --noconfirm --icon="assets/OBF_101.ico" --add-data "assets/OBF_101.ico;." --name="BOTN Backup ~ Restore" "BOTN Backup.py"
+        run: pyinstaller --onefile --noconsole --clean --noconfirm --icon="assets/OBF_101.ico" --add-data "assets/OBF_101.ico;." --name="BOTN Backup ~ Restore" "BOTN-Backup-Restore.py"
 
       - name: Upload .exe to release
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/BOTN Backup ~ Restore.exe  # Path to your built .exe
+          files: "dist/BOTN-Backup-Restore.exe"  # Path to your built .exe
