@@ -13,6 +13,7 @@ To fully populate these folders after a Windows Installation or Reset:
 2. Once you get to the main menu, click Exit Game.
 At this stage all folders are restored.
 
+
 ![Backup](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/38294a6fcc93bcdd7753ff499a3eb7b79c785f2a/Images/BOTN_Backup_~_Restore_MUAkoyi3VA.png)
 
 For Backing up, follow these steps:
@@ -20,6 +21,7 @@ For Backing up, follow these steps:
 2. Ensure that Backup is selected.
 3. Click Save to... button and choose Drive and/or Folder.
 4. Click Backup, a Success prompt should appear, a file {selector}_dd-mm-yyyy.zip file should be saved to the destination chosen in step 3.
+
 
 ![Restore](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/38294a6fcc93bcdd7753ff499a3eb7b79c785f2a/Images/BOTN_Backup_~_Restore_53NKDlKfMf.png)
 
