@@ -12,7 +12,7 @@ When you first open the application:
 To fully populate these folders after a Windows Installation or Reset:  
 1. Run BOTN (You can use Steam or if you are a Supporter, use the build from Patreon or SubscribeStar.)  
 2. Once you get to the main menu, click Exit Game.  
-At this stage all folders are restored.  
+At this stage all folders and files are restored.  
   
 ---  
 # Backup  
