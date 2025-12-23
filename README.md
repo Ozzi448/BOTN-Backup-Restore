@@ -1,3 +1,4 @@
+![Static Badge](https://img.shields.io/badge/build-repo-blue?logo=https%3A%2F%2Fimg.shields.io%2Fbadge%2Fgithub-repo-blue%3Flogo%3Dgithub&link=https%3A%2F%2Fgithub.com%2FOzzi448%2FBOTN-Backup-Restore%2Freleases%2Ftag%2Fv1.0.2-alpha.3)  
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Ozzi448/BOTN-Backup-Restore/total)  
 
 # BOTN Backup ~ Restore
