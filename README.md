@@ -2,20 +2,28 @@
 
 # BOTN Backup ~ Restore
   
-I was inspired to create this tool to make backing up and restoring SaveGames and CharacterPresets easier. Instead of opening multiple folders and windows just to extract files from ZIP archives, this tool simplifies the entire process.  
-The idea came from repeatedly seeing people in the Discord server ask, “Where is the SaveGames path?”—so I wanted to build something that reduces confusion and requires minimal user interaction.  
+I created this tool to make backing up and restoring SaveGames, ToyPresets, and CharacterPresets far more straightforward. Instead of navigating multiple folders and windows just to extract files from ZIP archives, this tool streamlines the entire process.  
+The idea came from seeing the same question pop up repeatedly in the Discord server—“Where is the SaveGames path?” I wanted to build something that reduces confusion and requires as little user effort as possible.  
+This is a not‑for‑profit project and follows the same usage conditions as the base game, excluding its early development builds. However, if you support DerelictHelmsman on 
+ [Patreon](<https://www.patreon.com/c/BreedersOfTheNephelym>) or [SubscribeStar](<https://subscribestar.adult/derelict-enertainment>), you’re welcome to use this tool with those early builds as well.  
+I am not involved in the development of the main game and would never claim otherwise. This tool is entirely separate from the primary project. I simply have DerelictHelmsman’s approval to create it and share it with anyone who finds it useful  
   
-![Main Application](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/c4f6f95d9fe83dfd9cd35023202d454cf4051873/Images/BOTN_Backup_~_Restore_1.png)  
+<p align="center"><img src="https://github.com/Ozzi448/BOTN-Backup-Restore/blob/c4f6f95d9fe83dfd9cd35023202d454cf4051873/Images/BOTN_Backup_~_Restore_1.png" alt=Main Application"></p>
   
 When you first open the application:  
 * Checks if `%LocalAppData%\OBF\Saved` exists; if false, the tool will create the folders.  
-* Checks if CharacterPresets & SavedGames exists; if false, the tool will create the folders.  
-* Checks Saved to.. location from `HKLU\\Software\\BOTNBackup`.  
+* Checks if CharacterPresets & ToyPresets & SavedGames exists; if false, the tool will create the folders.  
+* Saves the __Saved to...__ chosen path to `HKLU\\Software\\BOTNBackup` and checks the chosen path from `HKLU\\Software\\BOTNBackup` on application startup.  
 * Saves window position to `HKLU\\SOFTWARE\\BOTNBackup`.  
-* [Removed] (Saves window Height and Width, this posed issues with window display and would cause more confusion.)  
-* [Added] 1.0.2-alpha.3 - Progress bar in Restore, this progress bar helps mostly for large archives and more than one archive in the list to extract.  
-* [Added] 1.0.2-alpha.3 - ToyPresets.  
+* ~~Saves window Height and Width, this posed issues with window display and would cause more confusion.~~  
   
+Other Features  
+* [Added] 1.0.2-alpha.3 - Added a progress bar in Restore, this progress bar helps mostly large archives or more than one archive in the list to extract.  
+  * This should help avoid confusion for when the application is appearing as though it's doing nothing, while everything is greyed out and non responsive.  
+  * I could add a 'Show Log' button, but this would mean full rewrite of the restore functions.  
+* [Added] 1.0.2-alpha.3 - Added ToyPresets choice.  
+* Only targets and extracts `.sav` files from archives.
+---
 To fully populate these folders after a Windows Installation or Reset:  
 1. Run BOTN (You can use Steam or if you are a Supporter, use the build from Patreon or SubscribeStar.)  
 2. Once you get to the main menu, click Exit Game.  
@@ -23,40 +31,47 @@ To fully populate these folders after a Windows Installation or Reset:
 At this stage all folders and files are restored.  
   
 # Backup  
-![Backup](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/c4f6f95d9fe83dfd9cd35023202d454cf4051873/Images/BOTN_Backup_~_Restore_2.png)  
+<p align="center"><img src="https://github.com/Ozzi448/BOTN-Backup-Restore/blob/c4f6f95d9fe83dfd9cd35023202d454cf4051873/Images/BOTN_Backup_~_Restore_2.png" alt="Backup"></p>
 
 For Backing up, follow these steps:  
-1. Click which Folder, CharacterPresets or SaveGames.  
-2. Ensure that Backup is selected.  
-3. Click Save to... button and choose Drive and/or Folder.  
-   [Bug] (You will need to click Drive and/or Folder again inorder to re-select the path.)  
-5. Click Backup, a Success prompt should appear, a file {selector}_dd-mm-yyyy.zip file should be saved to the destination chosen in step 3.  
+1. Click which Folder, __CharacterPresets__, __ToyPresets__, or __SaveGames__.  
+2. Ensure that __Backup__ is selected.  
+3. Click __Save to...__ button and choose drive and/or folder.   
+5. Click __Backup__, a _Success prompt should appear_, _a file {selector}\_dd-mm-yyyy.zip file should be saved to the destination chosen in step 3_.  
   
 # Restore  
-![Restore](https://github.com/Ozzi448/BOTN-Backup-Restore/blob/c4f6f95d9fe83dfd9cd35023202d454cf4051873/Images/BOTN_Backup_~_Restore_3.png)  
+<p align="center"><img src="https://github.com/Ozzi448/BOTN-Backup-Restore/blob/c4f6f95d9fe83dfd9cd35023202d454cf4051873/Images/BOTN_Backup_~_Restore_3.png" alt="Restore"></p>
   
 For Restoring, follow these steps:  
-1. Click which folder, CharacterPresets or SaveGames.  
-2. Ensure that Restore is selected (Backup is selected by default).  
-3. Drag and drop or click Add Archive button and select the file.  
-   Accepted filetypes include (.zip, .rar, .7z, .sav). *You can place many files in this selector.*  
-5. Click Restore button, (.zip, .rar, .7z) will be extracted, (.sav) will be copied.
+1. Click which folder, __CharacterPresets__, __ToyPresets__, or __SaveGames__.  
+2. Ensure that __Restore__ is selected _(Backup is selected by default)_.  
+3. __Drag and drop__ or click __Add Archive__ button and select the file.  
+   Accepted filetypes include _(.zip, .rar, .7z, .sav). You can place many files in this selector_.  
+5. Click __Restore__ button, _(.zip, .rar, .7z) will be extracted, (.sav) will be copied_.
   
-# Installation of Character Presets
+# Installation of Character Presets  
   
 To install Character Presets do these steps:  
-1. Click on CharacterPresets.  
-2. Ensure that Restore is selected.  
-3. Drag and drop or click Add Archive button and select the file.  
-   Accepted filetypes include (.zip, .rar, .7z, .sav). *You can place many files in this selector.*  
-4. Click Restore button, (.zip, .rar, .7z) will be extracted, (.sav) will be copied.
+1. Click on __CharacterPresets__.  
+2. Ensure that __Restore__ is selected.  
+3. __Drag and drop__ or click __Add Archive__ button and select the file.  
+   Accepted filetypes include _(.zip, .rar, .7z, .sav). You can place many files in this selector_.  
+4. Click __Restore__ button, _(.zip, .rar, .7z) will be extracted, (.sav) will be copied_.  
   
----  
+# Installation of Toy Presets  
+
+To install ToyPresets do these steps:  
+1. Click on __ToyPresets__.  
+2. Ensure that __Restore__ is selected.  
+3. __Drag and drop__ or click __Add Archive__ button and select the file. _ToyPresets\_dd-mm-yyyy.zip or the package from toy_pattern-presets channel in the discord e.g. DefaultToyPresetsUpdated.zip_.  
+   Accepted filetypes include _(.zip, .rar, .7z, .sav)_.
+4. Click __Restore__ button, _(.zip, .rar, .7z) will be extracted, (.sav) will be copied_.
   
-The purpose of creating separate `.zip` backups for individual SaveGames and CharacterPresets is to keep these two elements distinct and avoid unintended overwrites. For example, if the tool targeted the entire "Saved" folder when you only wanted to restore CharacterPresets, it could accidentally replace all your existing SaveGames.  
+The purpose of creating a separate `.zip` backup for individual __SaveGames__, __ToyPresets__, and __CharacterPresets__ is to keep these two elements distinct and avoid unintended overwrites. For example, if the tool targeted the entire __"Saved"__ folder when you only wanted to restore __CharacterPresets__, it could accidentally replace all your existing __SaveGames__, and __ToyPresets__. 
+  
 To restore a specific SaveGame:  
 * Extract the desired `SaveGames_dd-mm-yyyy.zip` file.  
-* Rename the extracted `.sav` file to match an available save slot (e.g., rename it to `4.sav` if you already have `0.sav`, `1.sav`, `2.sav`, `3.sav`, and `GameActions.sav`).  
-  
+* Rename the extracted `.sav` file to match an available save slot (e.g., rename it to `4.sav` if you already have `0.sav`, `1.sav`, `2.sav`, `3.sav`, and `GameActions.sav`).
+---
 For additional questions or information regarding the game, please ask in the [Breeders of the Nephelym](https://discord.gg/MHkf62B5EJ) Discord server or consult the [Breeders of the Nephelym Wiki](https://breedersofthenephelym.miraheze.org/wiki/Breeders_of_the_Nephelym_Wiki).  
 If you have specific questions or issues with this tool, please use the [Issues](https://github.com/Ozzi448/BOTN-Backup-Restore/issues) tab.  
