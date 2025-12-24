@@ -1,13 +1,18 @@
 ![Static Badge](https://img.shields.io/badge/build-repo-blue?logo=github&link=https%3A%2F%2Fgithub.com%2FOzzi448%2FBOTN-Backup-Restore%2Freleases%2Ftag%2Fv1.0.2-alpha.3) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Ozzi448/BOTN-Backup-Restore/total)  
 
-# BOTN Backup ~ Restore
-  
+# BOTN Backup ~ Restore  
+
+# About  
+
 I created this tool to make backing up and restoring SaveGames, ToyPresets, and CharacterPresets far more straightforward. Instead of navigating multiple folders and windows just to extract files from ZIP archives, this tool streamlines the entire process.  
 The idea came from seeing the same question pop up repeatedly in the Discord server—“Where is the SaveGames path?” I wanted to build something that reduces confusion and requires as little user effort as possible.  
 This is a not‑for‑profit project and follows the same usage conditions as the base game, excluding its early development builds. However, if you support DerelictHelmsman on 
  [Patreon](<https://www.patreon.com/c/BreedersOfTheNephelym>) or [SubscribeStar](<https://subscribestar.adult/derelict-enertainment>), you’re welcome to use this tool with those early builds as well.  
-I am not involved in the development of the main game and would never claim otherwise. This tool is entirely separate from the primary project. I simply have DerelictHelmsman’s approval to create it and share it with anyone who finds it useful  
   
+# Disclaimer  
+I am not involved in the development of the main game and would never claim otherwise. This tool is entirely separate from the primary project. I simply have DerelictHelmsman’s approval to create it and share it with anyone who finds it useful
+ 
+---
 <p align="center"><img src="https://github.com/Ozzi448/BOTN-Backup-Restore/blob/c4f6f95d9fe83dfd9cd35023202d454cf4051873/Images/BOTN_Backup_~_Restore_1.png" alt=Main Application"></p>
   
 When you first open the application:  
