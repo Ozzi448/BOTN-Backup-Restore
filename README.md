@@ -66,10 +66,10 @@ To install ToyPresets do these steps:
 3. __Drag and drop__ or click __Add Archive__ button and select the file. _ToyPresets\_dd-mm-yyyy.zip or the package from toy_pattern-presets channel in the discord e.g. DefaultToyPresetsUpdated.zip_.  
    Accepted filetypes include _(.zip, .rar, .7z, .sav)_.
 4. Click __Restore__ button, _(.zip, .rar, .7z) will be extracted, (.sav) will be copied_.
-  
+---
 The purpose of creating a separate `.zip` backup for individual __SaveGames__, __ToyPresets__, and __CharacterPresets__ is to keep these two elements distinct and avoid unintended overwrites. For example, if the tool targeted the entire __"Saved"__ folder when you only wanted to restore __CharacterPresets__, it could accidentally replace all your existing __SaveGames__, and __ToyPresets__. 
   
-To restore a specific SaveGame:  
+# To restore a specific SaveGame:  
 * Extract the desired `SaveGames_dd-mm-yyyy.zip` file.  
 * Rename the extracted `.sav` file to match an available save slot (e.g., rename it to `4.sav` if you already have `0.sav`, `1.sav`, `2.sav`, `3.sav`, and `GameActions.sav`).
 ---
