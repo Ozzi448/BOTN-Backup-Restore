@@ -78,5 +78,5 @@ The purpose of creating a separate `.zip` backup for individual __SaveGames__, _
 * Extract the desired `SaveGames_dd-mm-yyyy.zip` file.  
 * Rename the extracted `.sav` file to match an available save slot (e.g., rename it to `4.sav` if you already have `0.sav`, `1.sav`, `2.sav`, `3.sav`, and `GameActions.sav`).
 ---
-For additional questions or information regarding the game, please ask in the [Breeders of the Nephelym](https://discord.gg/MHkf62B5EJ) Discord server or consult the [Breeders of the Nephelym Wiki](https://breedersofthenephelym.miraheze.org/wiki/Breeders_of_the_Nephelym_Wiki).  
+For additional questions or information regarding the game, please ask in the [Breeders of the Nephelym](https://discord.gg/MHkf62B5EJ) Discord server or consult the [Breeders of the Nephelym Wiki](https://breedersofthenephelym.miraheze.org/wiki/Breeders_of_the_Nephelym_Wiki) or [Breeders of the Nephelym](https://steamcommunity.com/app/1161770/discussions/) Steam Forum Discussion.  
 If you have specific questions or issues with this tool, please use the [Issues](https://github.com/Ozzi448/BOTN-Backup-Restore/issues) tab.  
